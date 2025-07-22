@@ -41,21 +41,22 @@
 ## 📁 Folder Structure
 
 BlogForgeAI/
-├── backend/ # Node.js + Express backend
-│ ├── routes/ # Auth, blog, comment, AI
-│ ├── models/ # Mongoose schemas
-│ ├── controllers/ # API logic
-│ └── server.js # Entry point
-├── frontend/ # React client app
-│ ├── src/
-│ │ ├── components/ # Navbar, cards, editor, etc.
-│ │ ├── pages/ # Login, Dashboard, BlogPost, etc.
-│ │ └── App.jsx
-│ └── package.json
-├── README.md
+├── backend/                 # Node.js + Express backend
+│   ├── routes/              # Auth, blog, comment, AI routes
+│   ├── models/              # Mongoose schemas
+│   ├── controllers/         # API logic
+│   └── server.js            # Backend entry point
+│
+├── frontend/                # React client app
+│   ├── src/
+│   │   ├── components/      # Navbar, cards, editor, etc.
+│   │   ├── pages/           # Login, Dashboard, BlogPost, etc.
+│   │   └── App.jsx
+│   └── package.json
+│
 ├── .gitignore
-└── package.json
-
+├── README.md
+└── package.json             # Root-level (if mono-repo setup)
 
 ---
 
