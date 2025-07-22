@@ -1,12 +1,96 @@
-# React + Vite
+# 🚀 BlogForgeAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BlogForgeAI** is a powerful, full-stack blog publishing platform built with the MERN stack and powered by the Gemini API. It supports markdown blogging, rich media posts, and full AI-powered blog generation from a simple title input. The platform includes features like secure authentication, admin dashboard, comment system, and real-time search — all wrapped in a responsive, mobile-first UI.
 
-Currently, two official plugins are available:
+> ✨ Think of it as a smart, scalable alternative to Medium — built with AI, by developers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 **Authentication** – Secure sign-up/login with JWT & bcrypt
+- 📝 **Blog CRUD** – Create, edit, delete, and publish posts with markdown
+- 🧠 **AI Blog Generator** – Generate complete blog posts using Gemini API
+- 🧲 **Tag Filtering** – Filter posts based on topics like React, Node.js, etc.
+- 🔍 **Real-time Search** – Search blog titles and content live
+- 📊 **Admin Dashboard** – View stats, manage blogs, users, and comments
+- 👀 **Post View Counter** – Track blog popularity
+- 💬 **Comments Section** – Engage readers with feedback threads
+- 👏 **Clap/Like Button** – Let users appreciate content
+- 🗂 **Draft & Publish Toggle** – Save work in progress before publishing
+- 🌐 **Responsive UI** – Seamlessly optimized for mobile & desktop
+- 🔑 **Role-Based Routes** – Different views for users/admins
+- 🧠 **AI-Powered Comment Reply & Summary** – Auto-reply and summarize via Gemini
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Tech Used                             |
+|-------------|----------------------------------------|
+| Frontend    | React, Tailwind CSS, Axios, Markdown |
+| Backend     | Node.js, Express.js, MongoDB          |
+| Auth        | JWT, bcrypt                           |
+| AI API      | Gemini (Google Generative AI)         |
+| Database    | MongoDB Atlas                         |
+| Deployment  | Vercel (Frontend), Render/Heroku (API)|
+| Dev Tools   | ESLint, Prettier, VS Code             |
+
+---
+
+## 📁 Folder Structure
+
+BlogForgeAI/
+├── backend/ # Node.js + Express backend
+│ ├── routes/ # Auth, blog, comment, AI
+│ ├── models/ # Mongoose schemas
+│ ├── controllers/ # API logic
+│ └── server.js # Entry point
+├── frontend/ # React client app
+│ ├── src/
+│ │ ├── components/ # Navbar, cards, editor, etc.
+│ │ ├── pages/ # Login, Dashboard, BlogPost, etc.
+│ │ └── App.jsx
+│ └── package.json
+├── README.md
+├── .gitignore
+└── package.json
+
+
+---
+
+## 🧪 How to Run Locally
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/Vasper16/BlogForgeAI.git
+cd BlogForgeAI
+
+2. Setup Backend
+cd backend
+npm install
+# Add .env file with MONGO_URI and JWT_SECRET
+npm run dev
+
+3. Setup Frontend
+cd frontend
+npm install
+npm run dev
+
+📌 AI Features Powered by Gemini : 
+✨ Generate blog content using title prompts
+
+🧠 Generate blog summaries
+
+💬 Auto-generate replies to comments
+
+🧠 Plan blog ideas via prompt-to-post
+
+🔗 Project Links
+💻 Live: Coming Soon
+
+📦 Repo: github.com/Vasper16/BlogForgeAI
+
+
+
