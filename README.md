@@ -43,7 +43,7 @@
 
 ## 📁 Project Structure
 
-BlogForgeAI/
+```BlogForgeAI/
 ├── backend/                  # Node.js + Express backend API
 │   ├── routes/               # API endpoints for authentication, blogs, comments, AI
 │   ├── models/               # Mongoose schemas for data models
